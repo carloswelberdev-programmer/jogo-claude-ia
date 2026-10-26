@@ -129,6 +129,8 @@ body[data-f~=nos] #nos{display:block}
  body:not([data-f~=photo]) #tft{display:none}
  #tsb,#tdk{left:calc(28px + clamp(64px,17vmin,96px) + env(safe-area-inset-left,0px));bottom:calc(46px + clamp(64px,17vmin,96px)*2 + env(safe-area-inset-bottom,0px));font-size:10px!important;border-color:#5ad7ffcc!important;background:#06283acc!important}
  body:not([data-f~=sb]) #tsb{display:none}
+ #tcn{right:calc(28px + clamp(64px,17vmin,96px) + env(safe-area-inset-right,0px));bottom:calc(46px + clamp(64px,17vmin,96px)*2 + env(safe-area-inset-bottom,0px));font-size:10px!important;border-color:#9fe0ffcc!important}
+ body:not([data-f~=cv]) #tcn{display:none}
  body:not([data-f~=dk]) #tdk{display:none}
  #tej,#tpq{right:calc(14px + env(safe-area-inset-right,0px));bottom:calc(46px + clamp(64px,17vmin,96px)*2 + env(safe-area-inset-bottom,0px));font-size:10px!important;border-color:#ff5a5acc!important;background:#3a0a0acc!important}
  body:not([data-f~=ej]) #tej{display:none}
@@ -175,7 +177,7 @@ body[data-f~=nos] #nos{display:block}
 <div id="touch">
  <button id="tl" data-k="KeyA">◀</button><button id="tr" data-k="KeyD">▶</button>
  <button id="tb" data-k="KeyS">▼</button><button id="tg" data-k="KeyW">▲</button>
- <button id="tw" data-k="KeyE">EMPINAR</button><button id="tt" data-k="KeyT">DECOLAR</button><button id="tgr" data-k="KeyG">TREM</button><button id="tpo" data-k="KeyL">POUSAR</button><button id="tpl" data-k="KeyN">PLANETA</button><button id="tau" data-k="KeyM">AUTO</button><button id="tbm" data-k="KeyB">BOMBA</button><button id="tf" data-k="KeyF">FOGO</button><button id="th" class="s" data-k="Space">FREIO<br>MÃO</button><button id="trs" class="s" data-k="KeyR">RESET</button><button id="tm" data-k="KeyH">METRALHA</button><button id="ta" data-k="Digit1">ARMA</button><button id="tz" data-k="Digit2">ATIRAR</button><button id="tsp" data-k="Digit3">ESPAÇO</button><button id="tfg" data-k="Digit4">⚔ LUTAR</button><button id="tpu" data-k="Digit5">🥊 SOCO</button><button id="tki" data-k="Digit6">🦵 CHUTE</button><button id="tgd" data-k="Digit7">🛡 DEFESA</button><button id="tfo" data-k="Digit8">🔄 FORMA</button><button id="tcv" data-k="Digit9">⛏ CAVAR</button><button id="tfl" data-k="KeyX">🔥 FLARES</button><button id="tch" data-k="KeyZ">✨ CHAFF</button><button id="tft" data-k="Digit1">📷 FOTO</button><button id="tej" data-k="Digit0">💺 EJETAR</button><button id="tpq" data-k="Digit0">🪂 PARAQUEDAS</button><button id="tsb" data-k="Digit1">🛥 SUBMARINO</button><button id="tdk" data-k="Digit1">⚓ ACOPLAR</button><button id="tn" data-k="KeyV">NOS</button><div id="xp"><button data-k="KeyJ">⟲ GIRA</button><button data-k="KeyK">GIRA ⟳</button><button data-k="KeyI">LANÇA ⬆</button><button data-k="KeyU">LANÇA ⬇</button><button data-k="KeyO">BRAÇO ↩</button><button data-k="KeyY">BRAÇO ↪</button><button data-k="KeyZ">CAÇAMBA ⤵</button><button data-k="KeyX">CAÇAMBA ⤴</button></div>
+ <button id="tw" data-k="KeyE">EMPINAR</button><button id="tt" data-k="KeyT">DECOLAR</button><button id="tgr" data-k="KeyG">TREM</button><button id="tpo" data-k="KeyL">POUSAR</button><button id="tpl" data-k="KeyN">PLANETA</button><button id="tau" data-k="KeyM">AUTO</button><button id="tbm" data-k="KeyB">BOMBA</button><button id="tf" data-k="KeyF">FOGO</button><button id="th" class="s" data-k="Space">FREIO<br>MÃO</button><button id="trs" class="s" data-k="KeyR">RESET</button><button id="tm" data-k="KeyH">METRALHA</button><button id="ta" data-k="Digit1">ARMA</button><button id="tz" data-k="Digit2">ATIRAR</button><button id="tsp" data-k="Digit3">ESPAÇO</button><button id="tfg" data-k="Digit4">⚔ LUTAR</button><button id="tpu" data-k="Digit5">🥊 SOCO</button><button id="tki" data-k="Digit6">🦵 CHUTE</button><button id="tgd" data-k="Digit7">🛡 DEFESA</button><button id="tfo" data-k="Digit8">🔄 FORMA</button><button id="tcv" data-k="Digit9">⛏ CAVAR</button><button id="tfl" data-k="KeyX">🔥 FLARES</button><button id="tch" data-k="KeyZ">✨ CHAFF</button><button id="tft" data-k="Digit1">📷 FOTO</button><button id="tej" data-k="Digit0">💺 EJETAR</button><button id="tpq" data-k="Digit0">🪂 PARAQUEDAS</button><button id="tsb" data-k="Digit1">🛥 SUBMARINO</button><button id="tdk" data-k="Digit1">⚓ ACOPLAR</button><button id="tcn" data-k="Digit3">🔓 VIDRO</button><button id="tn" data-k="KeyV">NOS</button><div id="xp"><button data-k="KeyJ">⟲ GIRA</button><button data-k="KeyK">GIRA ⟳</button><button data-k="KeyI">LANÇA ⬆</button><button data-k="KeyU">LANÇA ⬇</button><button data-k="KeyO">BRAÇO ↩</button><button data-k="KeyY">BRAÇO ↪</button><button data-k="KeyZ">CAÇAMBA ⤵</button><button data-k="KeyX">CAÇAMBA ⤴</button></div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
@@ -372,6 +374,7 @@ const PARAMS={
  forklift:{m:3500,Iz:4500,a:.55,b:.95,h:.6,R:.35,mu:1.1,Tmax:40,pk:1600,pw:2000,idle:800,red:2600,up:2300,dn:1100,final:21,gears:[0,4,2.6,1.8,1.3,1,.8],rev:-4,drag:.6,down:0,Fb:12000,hbF:3000,yd:6000,gmax:3000,lim:.6,rg:1.1,tc:.6,lf:.6,cl:1000,ac:6.5},
  tricycle:{m:110,Iz:30,a:.5,b:.5,h:.9,R:.28,mu:1.2,Tmax:150,pk:100,pw:140,idle:20,red:130,up:1e9,dn:0,final:1,gears:[0,.45,.45,.45,.45,.45,.45],rev:-.4,drag:.3,down:0,Fb:600,hbF:200,yd:12,gmax:160,lim:.5,rg:1.3,tc:.3,lf:.9,cl:0,ac:7,rr:10},
  bicycle:{m:90,Iz:20,a:.55,b:.55,h:1,R:.34,mu:1,Tmax:120,pk:90,pw:120,idle:20,red:130,up:1e9,dn:0,final:1,gears:[0,.45,.45,.45,.45,.45,.45],rev:-.4,drag:.25,down:0,Fb:500,hbF:150,yd:8,gmax:160,lim:.4,rg:1.3,tc:.3,lf:.9,cl:0,ac:7,rr:10},
+ f15:{jet:1,vr:60,m:14000,Iz:90000,a:3.5,b:1.2,h:1,R:.4,mu:.9,Tmax:21000,pk:8000,pw:12000,idle:3000,red:11000,up:1e9,dn:0,final:5,gears:[0,1,1,1,1,1,1],rev:-1,drag:1.2,down:0,Fb:110000,hbF:25000,yd:70000,gmax:12000,lim:.3,rg:1.2,tc:.5,lf:.6,cl:4000},
  f16:{jet:1,vr:58,m:11000,Iz:75000,a:3.5,b:1.2,h:1,R:.4,mu:.9,Tmax:17000,pk:8000,pw:12000,idle:3000,red:11000,up:1e9,dn:0,final:5,gears:[0,1,1,1,1,1,1],rev:-1,drag:1.2,down:0,Fb:90000,hbF:20000,yd:60000,gmax:12000,lim:.3,rg:1.2,tc:.5,lf:.6,cl:4000},
  mq9:{jet:1,vr:34,m:4800,Iz:60000,a:3,b:1.2,h:1,R:.22,mu:.9,Tmax:2600,pk:8000,pw:12000,idle:3000,red:11000,up:1e9,dn:0,final:5,gears:[0,1,1,1,1,1,1],rev:-1,drag:1,down:0,Fb:40000,hbF:6000,yd:40000,gmax:12000,lim:.35,rg:1.2,tc:.5,lf:.6,cl:4000,ac:25,pr:1,pm:.9,br:.8,rr:3,tf:26,cs:90,ts:130,as:55,tk:70,mn:32,mx:150,st:28,tp:.17},
  airliner:{jet:1,vr:62,m:30000,Iz:600000,a:7,b:2,h:1,R:.55,mu:.9,Tmax:20000,pk:8000,pw:12000,idle:3000,red:11000,up:1e9,dn:0,final:5,gears:[0,1,1,1,1,1,1],rev:-1,drag:2,down:0,Fb:200000,hbF:30000,yd:400000,gmax:12000,lim:.25,rg:1.2,tc:.5,lf:.6,cl:4000,ac:35,pr:.5,pm:.5,br:.55,rr:2.5,tf:40,cs:140,ts:175,as:70,tk:100,mn:45,mx:190,st:55,tp:.14},
@@ -1126,8 +1129,8 @@ function buildTowerBuilding(){const g=new THREE.Group(),M=(c,o={})=>new THREE.Me
   g.userData={radar,beacon};return g}
 
 /* ---------- Câmera, áudio, HUD ---------- */
-const CAMD={f16:[13,4.2],ddg:[75,30],sub:[55,4],mq9:[14,4.5],bike:[5.5,2.3],truck:[12,5],jet:[16,5],heli:[13,5],person:[4.5,2.2],tractor:[8,3.2],backhoe:[8,3.4],bitrem:[20,6.5],mining:[20,9],airliner:[32,9],forklift:[6,2.6],bicycle:[4.2,1.9],tricycle:[4.8,2.1],drone:[5,2.2],train:[28,7],rocket:[34,9],excavator:[18,8],tipper:[11,4.5],b2:[28,8],b52:[48,13],tank:[16,6.5],carrier:[170,60],car:[7.5,2.9]};
-const CLY={f16:1.5,ddg:10,sub:2,merkava:2.5,mq9:1.5,truck:2.4,jet:1.5,airliner:2.5,mining:4,bitrem:3,heli:1.5,train:3.5,rocket:2,excavator:3,b2:2,b52:3,tank:2.5,carrier:8};
+const CAMD={f15:[14,4.5],f16:[13,4.2],ddg:[75,30],sub:[55,4],mq9:[14,4.5],bike:[5.5,2.3],truck:[12,5],jet:[16,5],heli:[13,5],person:[4.5,2.2],tractor:[8,3.2],backhoe:[8,3.4],bitrem:[20,6.5],mining:[20,9],airliner:[32,9],forklift:[6,2.6],bicycle:[4.2,1.9],tricycle:[4.8,2.1],drone:[5,2.2],train:[28,7],rocket:[34,9],excavator:[18,8],tipper:[11,4.5],b2:[28,8],b52:[48,13],tank:[16,6.5],carrier:[170,60],car:[7.5,2.9]};
+const CLY={f15:1.5,f16:1.5,ddg:10,sub:2,merkava:2.5,mq9:1.5,truck:2.4,jet:1.5,airliner:2.5,mining:4,bitrem:3,heli:1.5,train:3.5,rocket:2,excavator:3,b2:2,b52:3,tank:2.5,carrier:8};
 class ChaseCam{
   constructor(cam){this.cam=cam;this.p=new V3();this.l=new V3();this.u=new V3(0,1,0);this.fov=62;this.shake=0;this.init=0;this.oy=0;this.op=0;this.zm=1}
   reset(){this.oy=this.op=0;this.zm=1}
@@ -1168,7 +1171,7 @@ class EngineAudio{
     this.hg=c.createGain();this.hg.gain.value=0;this.hA.connect(this.hg);this.hB.connect(this.hg);this.hg.connect(c.destination);this.hA.start();this.hB.start();
   }
   update(rpm,thr,type,ab,spd){
-    if(!this.ctx)return;const t=this.ctx.currentTime,jet=type==='jet'||type==='airliner'||type==='b2'||type==='b52'||type==='mq9'||type==='f16',w=jet||type==='heli'?'sine':'sawtooth';
+    if(!this.ctx)return;const t=this.ctx.currentTime,jet=type==='jet'||type==='airliner'||type==='b2'||type==='b52'||type==='mq9'||type==='f16'||type==='f15',w=jet||type==='heli'?'sine':'sawtooth';
     if(this.o1.type!==w)this.o1.type=w;
     this.hg.gain.setTargetAtTime(type==='train'&&ab?.14:0,t,.03); // apito
     if(type==='rocket'){ // rugido grave dos motores
@@ -1232,7 +1235,7 @@ const sky=new THREE.Mesh(new THREE.SphereGeometry(1500,24,12),new THREE.ShaderMa
 sky.renderOrder=-1;const skyScene=new THREE.Scene();skyScene.add(sky);
 
 const track=new Track(scene),cam=new ChaseCam(camera),audio=new EngineAudio();
-const V={car:{v:new Vehicle(track,'car'),m:buildCar()},bike:{v:new Vehicle(track,'bike'),m:buildBike()},truck:{v:new Vehicle(track,'truck'),m:buildTruck()},jet:{v:new Vehicle(track,'jet'),m:buildJet()},mq9:{v:new Vehicle(track,'mq9'),m:buildMQ9()},f16:{v:new Vehicle(track,'f16'),m:buildF16()},merkava:{v:new Vehicle(track,'merkava'),m:buildMerkava()},ddg:{v:new Vehicle(track,'ddg'),m:buildDestroyer()},sub:{v:new Vehicle(track,'sub'),m:buildSub()},heli:{v:new Vehicle(track,'heli'),m:buildHeli()},tractor:{v:new Vehicle(track,'tractor'),m:buildTractor()},backhoe:{v:new Vehicle(track,'backhoe'),m:buildBackhoe()},bitrem:{v:new Vehicle(track,'bitrem'),m:buildBiTrem()},mining:{v:new Vehicle(track,'mining'),m:buildMining()},airliner:{v:new Vehicle(track,'airliner'),m:buildAirliner()},forklift:{v:new Vehicle(track,'forklift'),m:buildForklift()},bicycle:{v:new Vehicle(track,'bicycle'),m:buildBicycle()},tricycle:{v:new Vehicle(track,'tricycle'),m:buildTricycle()},drone:{v:new Vehicle(track,'drone'),m:buildDrone()},carrier:{v:new Vehicle(track,'carrier'),m:buildCarrierShip()},jet2:{v:new Vehicle(track,'jet'),m:buildJet()},jet3:{v:new Vehicle(track,'jet'),m:buildJet()},tipper:{v:new Vehicle(track,'tipper'),m:buildTipper()},excavator:{v:new Vehicle(track,'excavator'),m:buildExcavator()},b2:{v:new Vehicle(track,'b2'),m:buildB2()},tank:{v:new Vehicle(track,'tank'),m:buildTank()},rs2:{v:new Vehicle(track,'rs2'),m:buildRS2()},b52:{v:new Vehicle(track,'b52'),m:buildB52()},tfm:{v:new Vehicle(track,'tfm'),m:buildTransformer()},dai:{v:new Vehicle(track,'dai'),m:buildDaileon()},rocket:{v:new Vehicle(track,'rocket'),m:buildRocket()},train:{v:new Vehicle(track,'train'),m:buildTrain()},person:{v:new Vehicle(track,'person'),m:buildPerson()}};
+const V={car:{v:new Vehicle(track,'car'),m:buildCar()},bike:{v:new Vehicle(track,'bike'),m:buildBike()},truck:{v:new Vehicle(track,'truck'),m:buildTruck()},jet:{v:new Vehicle(track,'jet'),m:buildJet()},mq9:{v:new Vehicle(track,'mq9'),m:buildMQ9()},f16:{v:new Vehicle(track,'f16'),m:buildF16()},f15:{v:new Vehicle(track,'f15'),m:buildF15()},merkava:{v:new Vehicle(track,'merkava'),m:buildMerkava()},ddg:{v:new Vehicle(track,'ddg'),m:buildDestroyer()},sub:{v:new Vehicle(track,'sub'),m:buildSub()},heli:{v:new Vehicle(track,'heli'),m:buildHeli()},tractor:{v:new Vehicle(track,'tractor'),m:buildTractor()},backhoe:{v:new Vehicle(track,'backhoe'),m:buildBackhoe()},bitrem:{v:new Vehicle(track,'bitrem'),m:buildBiTrem()},mining:{v:new Vehicle(track,'mining'),m:buildMining()},airliner:{v:new Vehicle(track,'airliner'),m:buildAirliner()},forklift:{v:new Vehicle(track,'forklift'),m:buildForklift()},bicycle:{v:new Vehicle(track,'bicycle'),m:buildBicycle()},tricycle:{v:new Vehicle(track,'tricycle'),m:buildTricycle()},drone:{v:new Vehicle(track,'drone'),m:buildDrone()},carrier:{v:new Vehicle(track,'carrier'),m:buildCarrierShip()},jet2:{v:new Vehicle(track,'jet'),m:buildJet()},jet3:{v:new Vehicle(track,'jet'),m:buildJet()},tipper:{v:new Vehicle(track,'tipper'),m:buildTipper()},excavator:{v:new Vehicle(track,'excavator'),m:buildExcavator()},b2:{v:new Vehicle(track,'b2'),m:buildB2()},tank:{v:new Vehicle(track,'tank'),m:buildTank()},rs2:{v:new Vehicle(track,'rs2'),m:buildRS2()},b52:{v:new Vehicle(track,'b52'),m:buildB52()},tfm:{v:new Vehicle(track,'tfm'),m:buildTransformer()},dai:{v:new Vehicle(track,'dai'),m:buildDaileon()},rocket:{v:new Vehicle(track,'rocket'),m:buildRocket()},train:{v:new Vehicle(track,'train'),m:buildTrain()},person:{v:new Vehicle(track,'person'),m:buildPerson()}};
 for(const k in V){const m=V[k].m;[m.group,...(m.trailers||[]),...(m.cars||[])].forEach(o=>{scene.add(o);o.traverse(q=>{if(q.isMesh)q.castShadow=true})})}
 let sel='car',car=V.car.v;for(const k in V)V[k].v.key=k;
 const SEATS={car:['body',-.4,.62,-.1,.62],rs2:['body',-.42,1,.12,.55],tractor:['body',0,1.45,-.8,.9],backhoe:['body',0,1.55,-.35,.9],forklift:['body',0,1.45,-.5,.9],heli:['body',-.3,1.35,1,.8],jet:['body',0,.05,1.8,.55],jet2:['body',0,.05,1.8,.55],jet3:['body',0,.05,1.8,.55],train:['group',-.7,3.1,6.9,1],excavator:['up',-.95,.5,1.3,.85]};
@@ -1266,10 +1269,10 @@ const input=()=>({thr:+!!(keys.KeyW||keys.ArrowUp),brk:+!!(keys.KeyS||keys.Arrow
 const lap={t:0,best:null,half:false,prev:0},H=1/120;let last=performance.now(),acc=0;
 /* ---------- Troca de veículo + IA seguidora ---------- */
 const SP=track.pts.reduce((a,p,k)=>a+p.distanceTo(track.pts[(k+1)%track.N]),0)/track.N;
-const VEH=['car','rs2','tfm','dai','tank','merkava','bike','truck','jet','heli','tractor','backhoe','bitrem','mining','airliner','mq9','f16','forklift','bicycle','tricycle','drone','train','rocket','tipper','excavator','b2','b52','carrier','ddg'];
-const LABEL={f16:'✈ F-16I ISRAEL',ddg:'🚢 DESTRUIDOR',sub:'🤿 SUBMARINO',merkava:'🪖 MERKAVA',mq9:'🛩 DRONE MQ-9',car:'🚗 CARRO',rs2:'🚙 AUDI RS2',tank:'🪖 TANQUE',tfm:'🤖 TRANSFORMER',dai:'🛸 DAILEON',bike:'🏍️ MOTO',truck:'🚚 CAMINHÃO',jet:'✈️ CAÇA',heli:'🚁 HELI',tractor:'🚜 TRATOR',backhoe:'🏗️ RETRO',bitrem:'🚛 BI-TREM',mining:'⛏️ MINERAÇÃO',airliner:'🛫 AVIÃO',forklift:'🏭 EMPILHADEIRA',tricycle:'🛺 TRICICLO',bicycle:'🚲 BICICLETA',drone:'🛸 DRONE',train:'🚆 TREM',rocket:'🚀 FOGUETE',tipper:'🚛 BASCULANTE',excavator:'🏗️ ESCAVADEIRA',b2:'🦇 B-2',b52:'💣 B-52',carrier:'⚓ PORTA-AVIÕES',person:'🚶 A PÉ'};
-const NAMES={f16:'F-16I Sufa',ddg:'Destruidor',sub:'Submarino',merkava:'Merkava',mq9:'Drone MQ-9',car:'Carro',rs2:'Audi RS2',tank:'Tanque',tfm:'Transformer',dai:'Daileon',bike:'Moto',truck:'Caminhão',jet:'Caça',heli:'Helicóptero',tractor:'Trator',backhoe:'Retroescavadeira',bitrem:'Bi-trem',mining:'Cam. de mineração',airliner:'Avião',forklift:'Empilhadeira',tricycle:'Triciclo',bicycle:'Bicicleta',drone:'Drone',train:'Trem',rocket:'Foguete',tipper:'Basculante',excavator:'Escavadeira',b2:'B-2',b52:'B-52',carrier:'Porta-aviões'};
-const FEAT={f16:'to gear fire bomb cm ej',ddg:'fire bomb sb',sub:'bomb dk',merkava:'fire bomb photo',mq9:'to gear bomb photo cm',jet:'to gear fire bomb cm ej',b2:'to gear bomb cm ej',b52:'to gear bomb cm ej',tank:'fire',tfm:'to tl e fire mg wp sp',dai:'to tl e fire fo',heli:'to ld fire bomb e',airliner:'to gear',drone:'to ld e',bike:'e nos',car:'nos',rs2:'nos',backhoe:'e',forklift:'e',rocket:'to tl e plan auto ld',mining:'e',tipper:'e',excavator:'xp',carrier:'fire'};
+const VEH=['car','rs2','tfm','dai','tank','merkava','bike','truck','jet','heli','tractor','backhoe','bitrem','mining','airliner','mq9','f16','f15','forklift','bicycle','tricycle','drone','train','rocket','tipper','excavator','b2','b52','carrier','ddg'];
+const LABEL={f15:'✈ F-15',f16:'✈ F-16I ISRAEL',ddg:'🚢 DESTRUIDOR',sub:'🤿 SUBMARINO',merkava:'🪖 MERKAVA',mq9:'🛩 DRONE MQ-9',car:'🚗 CARRO',rs2:'🚙 AUDI RS2',tank:'🪖 TANQUE',tfm:'🤖 TRANSFORMER',dai:'🛸 DAILEON',bike:'🏍️ MOTO',truck:'🚚 CAMINHÃO',jet:'✈️ CAÇA',heli:'🚁 HELI',tractor:'🚜 TRATOR',backhoe:'🏗️ RETRO',bitrem:'🚛 BI-TREM',mining:'⛏️ MINERAÇÃO',airliner:'🛫 AVIÃO',forklift:'🏭 EMPILHADEIRA',tricycle:'🛺 TRICICLO',bicycle:'🚲 BICICLETA',drone:'🛸 DRONE',train:'🚆 TREM',rocket:'🚀 FOGUETE',tipper:'🚛 BASCULANTE',excavator:'🏗️ ESCAVADEIRA',b2:'🦇 B-2',b52:'💣 B-52',carrier:'⚓ PORTA-AVIÕES',person:'🚶 A PÉ'};
+const NAMES={f15:'F-15',f16:'F-16I Sufa',ddg:'Destruidor',sub:'Submarino',merkava:'Merkava',mq9:'Drone MQ-9',car:'Carro',rs2:'Audi RS2',tank:'Tanque',tfm:'Transformer',dai:'Daileon',bike:'Moto',truck:'Caminhão',jet:'Caça',heli:'Helicóptero',tractor:'Trator',backhoe:'Retroescavadeira',bitrem:'Bi-trem',mining:'Cam. de mineração',airliner:'Avião',forklift:'Empilhadeira',tricycle:'Triciclo',bicycle:'Bicicleta',drone:'Drone',train:'Trem',rocket:'Foguete',tipper:'Basculante',excavator:'Escavadeira',b2:'B-2',b52:'B-52',carrier:'Porta-aviões'};
+const FEAT={f15:'to gear fire bomb cm ej cv',f16:'to gear fire bomb cm ej',ddg:'fire bomb sb',sub:'bomb dk',merkava:'fire bomb photo',mq9:'to gear bomb photo cm',jet:'to gear fire bomb cm ej',b2:'to gear bomb cm ej',b52:'to gear bomb cm ej',tank:'fire',tfm:'to tl e fire mg wp sp',dai:'to tl e fire fo',heli:'to ld fire bomb e',airliner:'to gear',drone:'to ld e',bike:'e nos',car:'nos',rs2:'nos',backhoe:'e',forklift:'e',rocket:'to tl e plan auto ld',mining:'e',tipper:'e',excavator:'xp',carrier:'fire'};
 let drv='car',hist=[]; // hist: últimos veículos usados = seguidores
 const others=()=>VEH.filter(k=>k!==sel),nextSel=()=>VEH[(VEH.indexOf(sel==='person'?drv:sel)+1)%VEH.length];
 function jetCmd(k){ // T = decolar (liga/desliga), G = recolher/baixar trem
@@ -1278,6 +1281,7 @@ function jetCmd(k){ // T = decolar (liga/desliga), G = recolher/baixar trem
   if((k==='KeyX'||k==='KeyZ')&&CMOK.has(sel)){deployCM(k==='KeyX'?'flare':'chaff');return}
   if(k==='Digit1'&&(sel==='mq9'||sel==='merkava')){takePhoto();return}
   if(k==='Digit1'&&(sel==='ddg'||sel==='sub')){shipSub();return}
+  if(k==='Digit3'&&sel==='f15'){toggleCanopy();return}
   if(sel==='tfm'||sel==='dai'){const t=V[sel].v,dai=sel==='dai'; // T transforma; Transformer: 1 saca a arma e 3 liga o modo espacial; no espaço N / M / L funcionam como no foguete
     const fx=()=>{puff(t.pos.x,t.pos.y+1.5,t.pos.z,26,{v:8,up:3,l:.9,s:[.4,.1],g:10,c0:[1,.9,.5],c1:[1,.4,0]});audio.shot();audio.shot()};
     if(dai&&t.dig&&(k==='KeyT'||k==='Digit8'||k==='Digit4')){twSay('cavar','TORRE ▸ Saia do modo cavar primeiro (tecla 9).',3);return}
@@ -1323,11 +1327,11 @@ function jetCmd(k){ // T = decolar (liga/desliga), G = recolher/baixar trem
   if(sel==='rocket'){const q=V.rocket.v;
     if(k==='KeyT'){if(!q.air)q.to=!q.to;else q.to=false}else if(k==='KeyN'){q.tgt=((q.tgt??-1)+1)%PLANETS.length}else if(k==='KeyM'){q.auto=!q.auto&&q.tgt!=null&&q.air;q.land=false}else if(k==='KeyL'&&q.air){q.land=!q.land;q.auto=false;q.landPhase=0}return}
   if(sel==='heli'||sel==='drone'){const h=V[sel].v;if(k==='KeyT'){h.ld=false;h.to=h.air?false:!h.to}else if(k==='KeyL'&&h.air){h.to=false;h.ld=!h.ld}return}
-  if(sel!=='jet'&&sel!=='airliner'&&sel!=='b2'&&sel!=='b52'&&sel!=='mq9'&&sel!=='f16')return;const j=V[sel].v;
+  if(sel!=='jet'&&sel!=='airliner'&&sel!=='b2'&&sel!=='b52'&&sel!=='mq9'&&sel!=='f16'&&sel!=='f15')return;const j=V[sel].v;
   if(k==='KeyT'){if(!j.air&&!j.belly){j.to=!j.to;j.toYaw=null}else if(j.to)j.to=false}
   else if(j.belly){j.belly=false;j.gearDown=true}else if(j.air)j.gearDown=!j.gearDown;
 }
-function toggleSeat(){if(EJ.on||sel==='ddg'||sel==='sub')return;if(EJ_OK.has(sel)&&car.air&&car.pos.y>15){ejectPilot();return} // Q: sai do veículo / entra no mais próximo (até 9 m)
+function toggleSeat(){if(EJ.on||sel==='ddg'||sel==='sub')return;if(sel==='f15'&&!car.air&&Math.abs(car.vx||0)<=4)car.cOpen=true;if(EJ_OK.has(sel)&&car.air&&car.pos.y>15){ejectPilot();return} // Q: sai do veículo / entra no mais próximo (até 9 m)
   if(sel==='person'){if(car.planet){if(car.pos.distanceTo(V[car.ship||'rocket'].v.pos)<22){const sk=car.ship||'rocket';car.planet=null;setSel(sk)}return}
     let best=null,bd=9;
     for(const k of VEH){const v=V[k].v,d=Math.hypot(v.pos.x-car.pos.x,v.pos.z-car.pos.z);if(d<bd&&(v.pos.y<4||(k==='rocket'&&!v.air&&!v.landedOn))){bd=d;best=k}}
@@ -1341,7 +1345,7 @@ function toggleSeat(){if(EJ.on||sel==='ddg'||sel==='sub')return;if(EJ_OK.has(sel
       styleModel(V.person.m,'rocket');setSel('person');return}
     if(Math.abs(car.vx)>4||car.air||car.landedOn||(car.pos.y>1&&sel!=='rocket'))return;
     V.person.v.planet=null; // só sai parado e no chão
-    const o=({excavator:5,tipper:3,rocket:6,train:4,truck:3.6,jet:5,heli:4,bitrem:3.5,mining:6,airliner:7,backhoe:3,tractor:3})[sel]||2.8,p=V.person.v;
+    const o=({excavator:5,tipper:3,rocket:6,train:4,truck:3.6,jet:5,f15:5.5,f16:5,mq9:6,merkava:4,heli:4,bitrem:3.5,mining:6,airliner:7,backhoe:3,tractor:3})[sel]||2.8,p=V.person.v;
     p.pos.set(car.pos.x+Math.cos(car.yaw)*o,0,car.pos.z-Math.sin(car.yaw)*o);p.yaw=car.yaw;p.vx=0;p.w=0;styleModel(V.person.m,sel);setSel('person');
   }
 }
@@ -1360,7 +1364,7 @@ function resetAll(){if(sel==='person')setSel(drv);V[sel].v.reset(0,0);others().f
 function setSel(s){
   const prev=sel;if(prev!=='person'&&prev!==s)hist=[prev,...hist.filter(k=>k!==prev)];hist=hist.filter(k=>k!==s);
   const od=car.pos.distanceTo(V[s].v.pos);sel=s;car=V[s].v;if(od>60)cam.init=0;document.body.dataset.v=s;document.body.dataset.f=FEAT[s]||'';
-  $('sw').textContent=LABEL[s]+' ⇄ TROCAR';if(s!=='person')drv=s;$('sx').textContent=s==='person'?'🚪 ENTRAR':'🚪 SAIR';$('th').innerHTML=({f16:'TURBO',mq9:'TURBO',jet:'TURBO',b2:'TURBO',b52:'TURBO',airliner:'TURBO',heli:'⬆ SUBIR',sub:'⬇ MERGULHAR',tfm:'⬆ SUBIR',dai:'⬆ SUBIR',drone:'⬆ SUBIR',train:'🔔 APITO',rocket:'🔥 PROPULSOR',person:'CORRER'})[s]||'FREIO<br>MÃO';$('tw').innerHTML=({heli:'⬇ DESCER',sub:'⬆ EMERGIR',tfm:'⬇ DESCER',dai:'⬇ DESCER',drone:'⬇ DESCER',forklift:'⬆ ELEVAR',backhoe:'⬆ ELEVAR',rocket:'🛑 FREAR',mining:'⬆ BASCULAR',tipper:'⬆ BASCULAR'})[s]||'EMPINAR';$('tt').textContent=({rocket:'LANÇAR',tfm:'TRANSFORMAR',dai:'TRANSFORMAR'})[s]||'DECOLAR';
+  $('sw').textContent=LABEL[s]+' ⇄ TROCAR';if(s!=='person')drv=s;$('sx').textContent=s==='person'?'🚪 ENTRAR':'🚪 SAIR';$('th').innerHTML=({f15:'TURBO',f16:'TURBO',mq9:'TURBO',jet:'TURBO',b2:'TURBO',b52:'TURBO',airliner:'TURBO',heli:'⬆ SUBIR',sub:'⬇ MERGULHAR',tfm:'⬆ SUBIR',dai:'⬆ SUBIR',drone:'⬆ SUBIR',train:'🔔 APITO',rocket:'🔥 PROPULSOR',person:'CORRER'})[s]||'FREIO<br>MÃO';$('tw').innerHTML=({heli:'⬇ DESCER',sub:'⬆ EMERGIR',tfm:'⬇ DESCER',dai:'⬇ DESCER',drone:'⬇ DESCER',forklift:'⬆ ELEVAR',backhoe:'⬆ ELEVAR',rocket:'🛑 FREAR',mining:'⬆ BASCULAR',tipper:'⬆ BASCULAR'})[s]||'EMPINAR';$('tt').textContent=({rocket:'LANÇAR',tfm:'TRANSFORMAR',dai:'TRANSFORMAR'})[s]||'DECOLAR';
   const k=(car.P.red-car.P.gmax*.06)/car.P.gmax;$('rz').setAttribute('stroke-dasharray',`0 ${377*k} ${377*(1-k)} 600`);
   lap.t=0;lap.half=false;lap.prev=car.idx;
 }
@@ -1437,8 +1441,8 @@ function dropBomb(){
   if(sel==='ddg'){if(bombT>0)return;bombT=5;ddgBomb();return}
   if(sel==='sub'){if(bombT>0)return;bombT=10;subBomb();return}
   if(sel==='merkava'){if(bombT>0||MKV.n>0)return;MKV.n=15;MKV.t=0;bombT=6;CMS.msg='💥 SALVA: 15 projéteis!';CMS.mt=1.8;return}   // Merkava: BOMBA = 15 tiros seguidos
-  if((sel!=='jet'&&sel!=='heli'&&sel!=='b2'&&sel!=='b52'&&sel!=='mq9')||bombT>0)return;
-  if(sel==='b52'||sel==='mq9'){stickK=sel;stick=10;stickT=0;bombT=sel==='mq9'?3.5:5}   // salva de 10 bombas por clique   // B-52: bombardeio em tapete, 10 bombas em sequência
+  if((sel!=='jet'&&sel!=='heli'&&sel!=='b2'&&sel!=='b52'&&sel!=='mq9'&&sel!=='f15')||bombT>0)return;
+  if(sel==='b52'||sel==='mq9'||sel==='f15'){stickK=sel;stick=10;stickT=0;bombT=sel==='mq9'?3.5:5}   // salva de 10 bombas por clique   // B-52: bombardeio em tapete, 10 bombas em sequência
   else{bombT=1.2;releaseBomb(V[sel].v)}
   if(sel==='jet'||sel==='b2'||sel==='b52'){let n=0;   // esquadrão: os outros caças que voam com você também soltam uma bomba
     for(const k of['jet','jet2','jet3']){if(k===sel)continue;const v=V[k].v;if(v.air&&v.pos.y>20){SQB.push({k,t:.15+Math.random()*.4});n++}}
@@ -1451,14 +1455,14 @@ function updateWeapons(dt){
   if(sel==='carrier'&&keys.KeyF&&CM.cd<=0&&CM.ammo>0){fireMissile();CM.cd=1.2}
   if(stick>0){stickT-=dt;while(stickT<=0&&stick>0){const j=V[stickK].v,h=j.air?j.vx:Math.max(j.vx,0),m=bombModel();scene.add(m);
     BO.push({m,x:j.pos.x+(Math.random()-.5)*.6,y:j.pos.y+(stickK==='b52'?2:.3),z:j.pos.z,vx:Math.sin(j.yaw)*h,vy:j.air?j.vs:0,vz:Math.cos(j.yaw)*h});stick--;stickT+=.14}}
-  while((sel==='jet'||sel==='heli')&&keys.KeyF&&gunT<=0){fireGun();gunT+=.04}
+  while((sel==='jet'||sel==='heli'||sel==='f15')&&keys.KeyF&&gunT<=0){fireGun();gunT+=.04}
   for(let i=PL.length-1;i>=0;i--){const b=PL[i];b.t+=dt;let hit=b.t>3; // plasma do fuzil do robô
     const n=Math.max(1,Math.ceil(Math.hypot(b.vx,b.vy,b.vz)*dt/2)),h=dt/n;
     for(let q=0;q<n&&!hit;q++){b.x+=b.vx*h;b.y+=b.vy*h;b.z+=b.vz*h;if(b.y<=0){hit=true;break}
       if(WAR.on&&warBullet(b,14)){hit=true;break}
       if(FIGHT.on&&b.own==='tfm'&&FIGHT.foe==='dai'&&sel==='tfm'){const v=V.dai.v;if(Math.hypot(b.x-v.pos.x,b.z-v.pos.z)<4.5&&b.y<v.pos.y+9&&b.y>v.pos.y-1){hit=true;hurt('dai',5,b.vx,b.vz,1.2);break}}
       for(const k in V){if(k==='tfm'||k==='dai'||k==='person'||k==='carrier')continue;const v=V[k].v;if(v.planet)continue;const dh=Math.hypot(b.x-v.pos.x,b.z-v.pos.z);
-        if(v.air?Math.hypot(dh,b.y-v.pos.y)<5:(dh<2.8&&b.y<4)){hit=true;if(v.air&&['jet','jet2','jet3','b2','b52','airliner','mq9','f16','heli','drone'].includes(k))killAir(v);break}}}
+        if(v.air?Math.hypot(dh,b.y-v.pos.y)<5:(dh<2.8&&b.y<4)){hit=true;if(v.air&&['jet','jet2','jet3','b2','b52','airliner','mq9','f16','f15','heli','drone'].includes(k))killAir(v);break}}}
     if(hit){miniBoom(b.x,Math.max(b.y,0),b.z);PL.splice(i,1)}}
   for(let i=MS.length-1;i>=0;i--){const b=MS[i];b.t+=dt; // mísseis teleguiados
     let tx=b.px,ty=b.py,tz=b.pz;if(b.tg){const q=b.tg.v;tx=q.pos.x;ty=q.pos.y+(q.air?1.4:1.5);tz=q.pos.z}
@@ -1467,7 +1471,7 @@ function updateWeapons(dt){
     b.vx=cur.x*sp;b.vy=cur.y*sp;b.vz=cur.z*sp;b.x+=b.vx*dt;b.y+=b.vy*dt;b.z+=b.vz*dt;b.m.position.set(b.x,b.y,b.z);b.m.lookAt(b.x+cur.x,b.y+cur.y,b.z+cur.z);
     b.tr-=dt;if(b.tr<=0){b.tr=.03;puff(b.x-cur.x*1.6,b.y-cur.y*1.6,b.z-cur.z*1.6,1,{v:.5,up:0,l:1.4,s:[.8,2.4],g:-.1,c0:[.92,.92,.92],c1:[.55,.55,.55]})}   // rastro de fumaça
     if((d<14&&b.t>(b.up??.8))||(b.y<=0&&b.t>.3)||b.t>18){const ex=b.x,ey=Math.max(b.y,0),ez=b.z;explode(ex,ey,ez);scene.remove(b.m);MS.splice(i,1);fightBlast(ex,ey,ez,b.own);
-      for(const k in V){if(k==='carrier'||k==='person'||k===sel)continue;const v=V[k].v;if(!['jet','jet2','jet3','b2','b52','airliner','mq9','f16','heli','drone'].includes(k)||!v.air)continue;if(Math.hypot(v.pos.x-ex,v.pos.y-ey,v.pos.z-ez)<40)killAir(v)}}}   // aeronaves atingidas explodem e voltam ao convés
+      for(const k in V){if(k==='carrier'||k==='person'||k===sel)continue;const v=V[k].v;if(!['jet','jet2','jet3','b2','b52','airliner','mq9','f16','f15','heli','drone'].includes(k)||!v.air)continue;if(Math.hypot(v.pos.x-ex,v.pos.y-ey,v.pos.z-ez)<40)killAir(v)}}}   // aeronaves atingidas explodem e voltam ao convés
   for(let i=SH.length-1;i>=0;i--){const b=SH[i];b.t+=dt;let hit=b.t>7; // obuses do tanque
     const n=Math.max(1,Math.ceil(Math.hypot(b.vx,b.vz)*dt)),h=dt/n;
     for(let q=0;q<n&&!hit;q++){b.vy-=9.81*h;b.x+=b.vx*h;b.y+=b.vy*h;b.z+=b.vz*h;if(b.y<=0){hit=true;b.y=0;break}
@@ -1648,7 +1652,7 @@ function overBed(k,x,y,z){const v=V[k].v,m=V[k].m,s=Math.sin(v.yaw),c=Math.cos(v
 function pour(amt,x,y,z){ // despeja terra: dentro de um caminhão ou, no ar, vira monte no chão
   for(const k of['tipper','mining']){if(overBed(k,x,y,z)){const T=V[k].v,a=Math.min(amt,V[k].m.cap-T.load);T.load+=a;if(a>0)puff(x,y,z,1,DIRTFX);return a}}
   if(y>.3){dropPile(x,z,amt);puff(x,Math.max(y-1,.3),z,1,DIRTFX);return amt}return 0}
-const DECK={jet:[-60,14],jet2:[-60,-14],jet3:[-40,0],b2:[-10,0],b52:[-112,0],mq9:[45,-14],f16:[15,14]}; // vagas dos caças no convés: [distância à frente do centro, lado esquerdo]
+const DECK={jet:[-60,14],jet2:[-60,-14],jet3:[-40,0],b2:[-10,0],b52:[-112,0],mq9:[45,-14],f16:[15,14],f15:[50,10]}; // vagas dos caças no convés: [distância à frente do centro, lado esquerdo]
 function placeOnDeck(v,fx,lat){const C=V.carrier.v,sy=Math.sin(C.yaw),cy=Math.cos(C.yaw);v.pos.set(C.pos.x+sy*fx+cy*lat,0,C.pos.z+cy*fx-sy*lat);v.yaw=C.yaw;v.vx=0;v.fallT=0}
 function respawnAir(v){if(track.isCity){placeBase(v,v.key);return}const d=DECK[v.key];if(d)placeOnDeck(v,d[0],d[1])}
 const AD={init:false};
@@ -1712,7 +1716,7 @@ function updateDig(dt){
   const under=camera.position.y<-.3&&car.type!=='ddg'&&car.type!=='sub';DIG.ceil.visible=under;
   if(under){DIG.ceil.position.set(camera.position.x,-.04,camera.position.z);scene.fog.color.setHex(0x1a110a);scene.fog.density=.028;DIG.fogged=true}else if(DIG.fogged){scene.fog.color.setHex(FOG);DIG.fogged=false}
   DIG.light.visible=car.pos.y<-1;if(DIG.light.visible)DIG.light.position.set(car.pos.x,car.pos.y+3,car.pos.z)}
-const NOTUN=new Set(['heli','drone','rocket','train','carrier','jet','jet2','jet3','b2','b52','airliner','mq9','f16','ddg','sub','person']);
+const NOTUN=new Set(['heli','drone','rocket','train','carrier','jet','jet2','jet3','b2','b52','airliner','mq9','f16','f15','ddg','sub','person']);
 function updateTunnels(dt){ // todos os veículos de chão entram nos túneis cavados: descem pela boca, andam no piso e batem nas paredes
   const n=Math.min(DIG.n,600);if(!n)return;
   for(const k in V){const v=V[k].v;if(NOTUN.has(k)||v.air||v.planet||v.dig)continue;if((k==='tfm'||k==='dai')&&(v.mode==='robot'||v.mode==='ship'||v.space))continue;
@@ -1728,7 +1732,7 @@ const CITY={on:false,err:0,g:null,cars:[],pol:[],heat:0,stars:0,hcd:0,bust:0,saf
 const WAR={on:false,en:[],pr:[],smoke:[],kills:0,total:0,wt:0,sm:0,noblast:false,done:false};
 const PH={hp:100,t:0};
 const WD={ // zona de guerra (coordenadas do mundo; o norte é +z)
-  slots:{f16:[250,2230],mq9:[350,2225],jet:[285,2205],jet2:[315,2205],jet3:[300,2255],b2:[205,2265],b52:[410,2275]},
+  slots:{f15:[340,2290],f16:[250,2230],mq9:[350,2225],jet:[285,2205],jet2:[315,2205],jet3:[300,2255],b2:[205,2265],b52:[410,2275]},
   tanks:[[-120,3600],[-40,3650],[60,3620],[160,3680],[260,3640],[-200,3760],[300,3780],[100,3800]],
   aa:[[-250,3520],[-90,3560],[40,3540],[190,3560],[330,3540],[430,3600],[0,3950],[200,3950]],
   bunkers:[[-150,3700],[0,3720],[150,3730],[300,3720],[-250,3850]],
@@ -2054,7 +2058,7 @@ $('mcv').addEventListener('click',e=>{const cv=e.currentTarget,rc=cv.getBounding
 addEventListener('keydown',e=>{if(e.code==='Tab'){e.preventDefault();if(!e.repeat)mapToggle()}if(e.code==='Escape'&&MAP.open)mapToggle()});
 
 /* ---------- Contramedidas: flares (mísseis de calor / infravermelho) e chaff (mísseis de radar) ---------- */
-const CMOK=new Set(['jet','jet2','jet3','b2','b52','mq9','f16','tfm','dai']);
+const CMOK=new Set(['jet','jet2','jet3','b2','b52','mq9','f16','f15','tfm','dai']);
 const CMS={fl:20,ch:12,cd:0,rl:0,items:[],tk:0,msg:'',mt:0,g:new THREE.Group(),sg:new THREE.SphereGeometry(.5,6,5),sm:new THREE.MeshBasicMaterial({color:0xffc060,fog:false})};scene.add(CMS.g);
 function cmVel(){const v=car,sn=Math.sin(v.yaw),cs=Math.cos(v.yaw);if(v.space){const ca=Math.cos(v.ap||0),sa=Math.sin(v.ap||0),sp=v.spd||0;return new V3(sn*ca*sp,sa*sp,cs*ca*sp)}const sp=v.vx||0;return new V3(sn*sp,v.vs||0,cs*sp)}
 function deployCM(kind){
@@ -2163,7 +2167,7 @@ function merkavaSalvo(dt){if(MKV.n<=0)return;if(sel!=='merkava'){MKV.n=0;return}
   puff(x,y,z,6,{v:6,up:1,l:.3,s:[1.2,.3],g:0,c0:[1,.85,.4],c1:[.6,.3,.1]});audio.boom(.25);cam.shake+=.12}
 
 /* ---------- Ejetar do caça e abrir o paraquedas quando quiser ---------- */
-const EJ_OK=new Set(['jet','b2','b52','f16']),EJ={on:false,chute:false,open:0,vel:new V3(),jk:null,jt:0,cm:null,t:0,sp:false};
+const EJ_OK=new Set(['jet','b2','b52','f16','f15']),EJ={on:false,chute:false,open:0,vel:new V3(),jk:null,jt:0,cm:null,t:0,sp:false};
 function chuteModel(){const g=new THREE.Group(),cv=document.createElement('canvas');cv.width=256;cv.height=32;const c=cv.getContext('2d');for(let i=0;i<8;i++){c.fillStyle=i%2?'#f2f2f2':'#d8321f';c.fillRect(i*32,0,32,32)}
   const tx=new THREE.CanvasTexture(cv),can=new THREE.Mesh(new THREE.SphereGeometry(4.2,24,10,0,Math.PI*2,0,Math.PI/2),new THREE.MeshStandardMaterial({map:tx,side:2,roughness:.8}));
   can.scale.y=.6;can.position.y=6.2;can.castShadow=true;g.add(can);
@@ -2314,6 +2318,44 @@ function f16Missile(v,tg,i){const sn=Math.sin(v.yaw),cs=Math.cos(v.yaw),side=i%2
 function f16Frame(dt){const v=V.f16.v;F16.cd-=dt;carpFrame(dt);
   if(v.pos.y>1000){v.pos.y=1000;if((v.vs||0)>0)v.vs=0}   // teto de serviço: 1000 m
   if(sel==='f16'&&keys.KeyF&&F16.cd<=0&&v.air){F16.cd=3.5;const tg=pickTarget();startSalvo('f16',10,.08,i=>f16Missile(v,tg,i));CMS.msg='🚀 10 MÍSSEIS!';CMS.mt=1.5}}
+
+/* ---------- F-15 (modelo da foto: asas de geometria variável): vidro que abre, 10 bombas por clique, metralhadora ---------- */
+function buildF15(){
+  const g=new THREE.Group(),body=new THREE.Group();g.add(body);body.position.y=1.4;
+  const M=(c,o={})=>new THREE.MeshStandardMaterial({color:c,metalness:.25,roughness:.55,...o}),lg=M(0xaeb4ba),mg=M(0x808790),dk=M(0x24272c,{roughness:.6}),wht=M(0xe8eaed),
+    glass=new THREE.MeshPhysicalMaterial({color:0x1a2f3d,metalness:.3,roughness:.03,transparent:true,opacity:.7,clearcoat:1,side:2}),tm=new THREE.MeshStandardMaterial({color:0x151515,roughness:.9}),rm=new THREE.MeshStandardMaterial({color:0xcfd4da,metalness:.9,roughness:.3}),flame=new THREE.MeshBasicMaterial({color:0xff8a1f,transparent:true,opacity:.85});
+  const add=(geo,mat,x,y,z,par=body)=>{const m=new THREE.Mesh(geo,mat);m.position.set(x,y,z);m.castShadow=m.receiveShadow=true;par.add(m);return m};
+  const B=(w,h,d)=>new THREE.BoxGeometry(w,h,d),Cy=(a,b,h,n=12)=>new THREE.CylinderGeometry(a,b,h,n),H=Math.PI/2;
+  add(B(2.5,.75,5.6),lg,0,0,-.2);add(Cy(0,.55,3.4),mg,0,-.05,4.1).rotation.x=H;add(B(3.4,.1,2.8),lg,0,.05,-.4);          // fuselagem larga, nariz e luva fixa da asa
+  const ab=new THREE.Group();body.add(ab);
+  for(const s of[-1,1]){
+    add(B(.95,.85,3.4),mg,s*1.0,-.1,-2.2);add(Cy(.42,.36,1.2,12),dk,s*1.0,-.1,-4.2).rotation.x=H;add(Cy(.38,0,2.2,10),flame,s*1.0,-.1,-5.6,ab).rotation.x=H;   // motores gêmeos
+    add(B(.12,2.3,1.8),lg,s*1.3,1.4,-3.6).rotation.z=-s*.14;add(B(2.6,.1,1.5),lg,s*2.2,0,-4.4).rotation.y=s*.25;                                              // deriva dupla e estabilizadores
+    add(B(.7,.5,1.4),mg,s*.9,-.55,1.4);                                                                                                                         // entradas de ar
+  }
+  const wings={};for(const s of[-1,1]){const w=new THREE.Group();w.position.set(s*1.7,0,-.3);body.add(w);add(B(5.2,.12,2.2),lg,s*2.6,0,-.2,w);add(B(1.4,.13,1.4),mg,s*3.9,.01,-.2,w);add(Cy(.12,.12,2.2,8),wht,s*1.7,-.35,-.3,w).rotation.x=H;wings[s]=w}   // asas que variam o enflechamento
+  const cg=new THREE.Group();cg.position.set(0,.42,.2);body.add(cg);                                                       // vidro (articulado atrás: abre para cima)
+  add(new THREE.SphereGeometry(.5,16,12),glass,0,.12,1.6,cg).scale.set(1.15,1,3.4);add(B(.06,.06,3.4),dk,0,.55,1.6,cg);
+  const pil=new THREE.Group();body.add(pil);add(new THREE.SphereGeometry(.22,10,8),wht,0,.65,1.3,pil);add(B(.5,.45,.4),mg,0,.38,1.1,pil);
+  const cvN=document.createElement('canvas');cvN.width=128;cvN.height=48;{const c=cvN.getContext('2d');c.fillStyle='#2b2e33';c.font='bold 40px sans-serif';c.textAlign='center';c.fillText('210',64,38)}
+  const nm=new THREE.MeshBasicMaterial({map:new THREE.CanvasTexture(cvN),transparent:true,side:2});
+  for(const s of[-1,1]){const n=new THREE.Mesh(new THREE.PlaneGeometry(1.1,.42),nm);n.position.set(s*.53,0,2.4);n.rotation.y=s*H;body.add(n)}   // número "210" no nariz
+  const wheels=[],gears=[],leg=(x,z,front)=>{const gr=new THREE.Group(),st=new THREE.Group(),sp=new THREE.Group();gr.position.set(x,-.3,z);body.add(gr);gears.push(gr);
+    gr.add(st);st.add(sp);sp.position.y=-.7;add(B(.07,.7,.07),dk,0,-.35,0,st);
+    add(Cy(.4,.4,.2,18),tm,0,0,0,sp).rotation.z=H;add(Cy(.22,.22,.22,10),rm,0,0,0,sp).rotation.z=H;wheels.push({steer:st,spin:sp,front})};
+  leg(0,3.2,1);leg(-1.1,-1,0);leg(1.1,-1,0);
+  return{group:g,body,wheels,gears,ab,h:1.4,canopy:cg,wingR:wings[1],wingL:wings[-1],pilot:pil}}
+const F15={prev:null,sw:.4};
+function toggleCanopy(){const v=V.f15.v;if(sel!=='f15')return;if(v.air||Math.abs(v.vx||0)>4){CMS.msg='Pare o caça no chão para abrir o vidro.';CMS.mt=2;return}
+  v.cOpen=!v.cOpen;CMS.msg=v.cOpen?'Vidro aberto — Q para sair do caça.':'Vidro fechado.';CMS.mt=1.8}
+function f15Frame(dt){const v=V.f15.v,m=V.f15.m;
+  if(F15.prev==='person'&&sel==='f15')v.cOpen=false;F15.prev=sel;                                   // ao entrar, o vidro fecha
+  if(sel==='f15'&&(v.air||Math.abs(v.vx||0)>6))v.cOpen=false;                                        // fecha sozinho ao andar ou voar
+  const tgt=((sel==='person'&&drv==='f15'&&!v.air)||(sel==='f15'&&v.cOpen))?1:0;                     // aberto enquanto o piloto está fora
+  v.cn=(v.cn||0)+clamp(tgt-(v.cn||0),-dt*1.2,dt*1.2);m.canopy.rotation.x=-v.cn*1.05;m.pilot.visible=sel==='f15';
+  const sp=v.air?(v.spd||0):Math.abs(v.vx||0),tw=.35+clamp((sp-45)/90,0,1)*.85;F15.sw+=(tw-F15.sw)*Math.min(1,dt*1.5);   // asas se fecham com a velocidade (20° a 69°)
+  m.wingR.rotation.y=F15.sw;m.wingL.rotation.y=-F15.sw}
+for(const[k,a]of[['f16','jet'],['f15','jet'],['mq9','jet'],['merkava','tank']])if(DRIVERS[a]&&!DRIVERS[k])DRIVERS[k]=DRIVERS[a];
 
 /* ---------- Luta: Transformer x Daileon ---------- */
 const FIGHT={on:false,foe:null,hp:100,fhp:100,win:0,lose:0,acd:1,scd:2,gs:1,pa:null,ss:1,msg:'',mt:0,sh:{}};
@@ -2509,7 +2551,7 @@ function fireTank(tv){
   audio.boom(.4);cam.shake+=.3}
 const SGT={on:false,tmp:new V3()};
 function updateSight(){ // mira do canhão/metralhadora e ponto de impacto das bombas, projetados na tela
-  const el=$('sight'),T=sel==='merkava'?'tank':sel,has=['jet','heli','mq9','f16','b2','b52','tank','tfm','carrier','dai'].includes(T);
+  const el=$('sight'),T=sel==='merkava'?'tank':sel,has=['jet','heli','mq9','f16','f15','b2','b52','tank','tfm','carrier','dai'].includes(T);
   if(!has){if(SGT.on){el.style.display='none';SGT.on=false}return}
   if(!SGT.on){el.style.display='block';SGT.on=true}
   camera.updateMatrixWorld(true);
@@ -2527,7 +2569,7 @@ function updateSight(){ // mira do canhão/metralhadora e ponto de impacto das b
       if(dd>12&&dd<(T==='tank'?450:900)&&Math.acos(clamp(w.dot(d)/dd,-1,1))<.045){lk=1;rg=dd;break}}
     sg.setAttribute('transform',`translate(${gq[0]},${gq[1]})`);sg.classList.toggle('lock',!!lk);$('sgt').textContent=lk?`ALVO ${Math.round(rg)} m`:'';show('sg',true)}else show('sg',false);
   // mira de bombas: onde a bomba cairia se fosse solta agora (B-52: faixa da sequência de 10 bombas)
-  const hasB=(T==='jet'||T==='heli'||T==='mq9'||T==='f16'||T==='b2'||T==='b52')&&v.air&&v.pos.y>8;let bq=null;
+  const hasB=(T==='jet'||T==='heli'||T==='mq9'||T==='f16'||T==='f15'||T==='b2'||T==='b52')&&v.air&&v.pos.y>8;let bq=null;
   if(hasB){const y0=v.pos.y+(T==='b52'?2:.6),h=Math.abs(v.vx),vs=v.vs||0,t=(vs+Math.sqrt(vs*vs+19.62*y0))/9.81,dh=new V3(Math.sin(v.yaw),0,Math.cos(v.yaw));
     const I=new V3(v.pos.x,0,v.pos.z).addScaledVector(dh,h*t);bq=scr(I);
     if(bq){let lk=0;for(const k in V){if(k===sel||k==='person')continue;const q=V[k].v;if(!q.air&&Math.hypot(q.pos.x-I.x,q.pos.z-I.z)<14){lk=1;break}}
@@ -2538,7 +2580,7 @@ function updateSight(){ // mira do canhão/metralhadora e ponto de impacto das b
 }
 function updateNos(){if(car.nos!==undefined){$('nosf').style.height=Math.round(car.nos*100)+'%';$('nos').classList.toggle('on',!!car.nosOn)}}
 function updateWork(dt){
-  updateDig(dt);updateTunnels(dt);autoDeck(dt);cityFrame(dt);guideFrame();portalFrame();cmFrame(dt);mq9Frame(dt);spotFrame(dt);ejectFrame(dt);subFrame(dt);subView();f16Frame(dt);
+  updateDig(dt);updateTunnels(dt);autoDeck(dt);cityFrame(dt);guideFrame();portalFrame();cmFrame(dt);mq9Frame(dt);spotFrame(dt);ejectFrame(dt);subFrame(dt);subView();f16Frame(dt);f15Frame(dt);
   fightFrame(dt);
   if(sel==='tfm'||sel==='dai'){const v=car,sh=v.mode==='ship',f0=v.planet?(sel==='dai'?'to tl':'tl sp'):sel==='dai'?(sh?'to tl e plan auto ld fire fo':'to tl e fire fo'+(v.mode==='tank'?' dg':'')):(v.mode!=='robot'?'to tl e':(v.space?'to tl e plan auto ld sp':'to tl e fire mg wp sp'));   // botões mudam com a forma
     const f=f0+(v.planet?'':' cm')+(v.mode==='robot'&&!v.space&&!v.planet?' fg':'')+(FIGHT.on&&v.mode==='robot'&&!v.space&&!v.planet?' fp':'');
@@ -2599,7 +2641,7 @@ track.deckFn=(x,z)=>onDeck(V.carrier.v,x,z);function aimGround(){const d=new V3(
 
 /* ---------- Radar de aeronaves e porta-aviões ---------- */
 const RD={mode:0,ranges:[1500,3000,8000,20000],ri:1,t:0,cv:null,ctx:null,vis:false};
-const RDL=[['jet','Caça 1','#39ff6a'],['jet2','Caça 2','#39ff6a'],['jet3','Caça 3','#39ff6a'],['b2','B-2','#ffd24a'],['b52','B-52','#ffd24a'],['mq9','Drone MQ-9','#ffd24a'],['f16','F-16I','#39ff6a'],['airliner','Avião','#ff9a3a'],['heli','Heli','#ffffff'],['drone','Drone','#ffffff'],['rocket','Foguete','#d98bff']];
+const RDL=[['jet','Caça 1','#39ff6a'],['jet2','Caça 2','#39ff6a'],['jet3','Caça 3','#39ff6a'],['b2','B-2','#ffd24a'],['b52','B-52','#ffd24a'],['mq9','Drone MQ-9','#ffd24a'],['f16','F-16I','#39ff6a'],['f15','F-15','#39ff6a'],['airliner','Avião','#ff9a3a'],['heli','Heli','#ffffff'],['drone','Drone','#ffffff'],['rocket','Foguete','#d98bff']];
 function updateRadar(dt){
   const cv=RD.cv||(RD.cv=$('radar')),on=(RD.mode!==2&&CMS.th&&CMS.th.length>0)||RD.mode===1||(RD.mode===0&&['jet','b2','b52','airliner','heli','drone','rocket','carrier','tfm','dai'].includes(sel));
   if(!on){if(RD.vis){cv.style.display='none';RD.vis=false}return}
@@ -2630,7 +2672,7 @@ $('rd').addEventListener('click',e=>{RD.mode=(RD.mode+1)%3;e.currentTarget.textC
 
 /* ---------- Torre de controle: informações sobre as aeronaves e para o piloto ---------- */
 const TW={t:2,log:[],last:{},air:{},voice:false,pa:false,was:false};
-const AIRN={f16:'F-16I Sufa',mq9:'Drone MQ-9',jet:'Caça 1',jet2:'Caça 2',jet3:'Caça 3',b2:'B-2',b52:'B-52',airliner:'Avião',heli:'Helicóptero',drone:'Drone'};
+const AIRN={f15:'F-15',f16:'F-16I Sufa',mq9:'Drone MQ-9',jet:'Caça 1',jet2:'Caça 2',jet3:'Caça 3',b2:'B-2',b52:'B-52',airliner:'Avião',heli:'Helicóptero',drone:'Drone'};
 const hdgOf=yaw=>Math.round(((360-yaw*180/Math.PI)%360+360)%360);
 const kmTxt=d=>d<1000?Math.round(d)+' m':(d/1000).toFixed(1)+' km';
 function clockOf(L,v){const b=Math.atan2(v.pos.x-L.pos.x,v.pos.z-L.pos.z),rel=Math.atan2(Math.sin(b-L.yaw),Math.cos(b-L.yaw));return Math.round(((12-rel/(Math.PI/6))%12+12)%12)||12}
@@ -2638,7 +2680,7 @@ function twSay(cat,txt,gap){const now=performance.now()/1000;if(TW.last[cat]&&no
   TW.log.push({txt,t:now});if(TW.log.length>3)TW.log.shift();
   if(TW.voice&&window.speechSynthesis){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(txt.replace(/TORRE ▸ ?/,'Torre. ').replace(/[▸·]/g,',').replace(/\n/g,'. ').replace(/km\/h/g,'quilômetros por hora').replace(/ m\b/g,' metros'));u.lang='pt-BR';u.rate=1.1;speechSynthesis.speak(u)}catch(e){}}}
 function updateTower(dt){
-  const now=performance.now()/1000,L=car,pAir=['jet','b2','b52','airliner','mq9','f16','heli','drone'].includes(sel)&&!!L.air;TW.t-=dt;
+  const now=performance.now()/1000,L=car,pAir=['jet','b2','b52','airliner','mq9','f16','f15','heli','drone'].includes(sel)&&!!L.air;TW.t-=dt;
   for(const k in AIRN){const v=V[k].v,up=!!(v.air&&v.pos.y>15);if(up&&!TW.air[k]&&k!==sel)twSay('up'+k,`TORRE ▸ ${AIRN[k]} decolou e está no ar.`,2);TW.air[k]=up}   // aviso de decolagens
   if(pAir&&!TW.pa)twSay('dec','TORRE ▸ Decolagem confirmada. Recolha o trem e suba para 300 m.',3);
   if(!pAir&&TW.pa&&TW.was)twSay('pou','TORRE ▸ Pouso confirmado. Bem-vindo de volta.',3);
@@ -2663,9 +2705,9 @@ workReady=true;resetAll();
 /* ---------- Jogar com os amigos ao vivo (capacidade room: posições compartilhadas em tempo real) ---------- */
 const SHARE_URL='https://claude.ai/artifact/G76xFmwFJz2FXFwT3tTjUp';
 const MP={room:null,cur:null,unsub:null,code:'',name:'Jogador'+(10+(Math.random()*90|0)),ghosts:new Map(),t:0,sv:0,msg:''};
-const WR={f16:.4,merkava:.45,mq9:.22,car:.33,tank:.45,rs2:.34,bike:.31,truck:.5,tractor:.75,backhoe:.8,bitrem:.5,mining:1.8,forklift:.35,bicycle:.34,tricycle:.3,jet:.4,airliner:.55,tipper:.45,excavator:.45};
-const BUILD={f16:buildF16,ddg:buildDestroyer,sub:buildSub,merkava:buildMerkava,mq9:buildMQ9,car:buildCar,tank:buildTank,rs2:buildRS2,bike:buildBike,truck:buildTruck,jet:buildJet,heli:buildHeli,tractor:buildTractor,backhoe:buildBackhoe,bitrem:buildBiTrem,mining:buildMining,airliner:buildAirliner,forklift:buildForklift,bicycle:buildBicycle,tricycle:buildTricycle,drone:buildDrone,rocket:buildRocket,tipper:buildTipper,excavator:buildExcavator,person:buildPerson};
-const TAGH={f16:6,ddg:30,sub:12,mq9:6,mining:11,bitrem:6.5,jet:6,airliner:9,rocket:12,heli:6,tractor:5,backhoe:5,excavator:9,person:3.2,bike:3,bicycle:3,tricycle:3};
+const WR={f15:.4,f16:.4,merkava:.45,mq9:.22,car:.33,tank:.45,rs2:.34,bike:.31,truck:.5,tractor:.75,backhoe:.8,bitrem:.5,mining:1.8,forklift:.35,bicycle:.34,tricycle:.3,jet:.4,airliner:.55,tipper:.45,excavator:.45};
+const BUILD={f15:buildF15,f16:buildF16,ddg:buildDestroyer,sub:buildSub,merkava:buildMerkava,mq9:buildMQ9,car:buildCar,tank:buildTank,rs2:buildRS2,bike:buildBike,truck:buildTruck,jet:buildJet,heli:buildHeli,tractor:buildTractor,backhoe:buildBackhoe,bitrem:buildBiTrem,mining:buildMining,airliner:buildAirliner,forklift:buildForklift,bicycle:buildBicycle,tricycle:buildTricycle,drone:buildDrone,rocket:buildRocket,tipper:buildTipper,excavator:buildExcavator,person:buildPerson};
+const TAGH={f15:6,f16:6,ddg:30,sub:12,mq9:6,mining:11,bitrem:6.5,jet:6,airliner:9,rocket:12,heli:6,tractor:5,backhoe:5,excavator:9,person:3.2,bike:3,bicycle:3,tricycle:3};
 const hueOf=t=>[...t].reduce((a,c)=>a+c.charCodeAt(0)*7,0)%360;
 function nameTag(txt,hue){const c=document.createElement('canvas');c.width=256;c.height=64;const x=c.getContext('2d');x.fillStyle=`hsla(${hue},70%,35%,.88)`;x.fillRect(0,8,256,48);x.fillStyle='#fff';x.font='bold 30px sans-serif';x.textAlign='center';x.fillText(txt,128,43);
   const s=new THREE.Sprite(new THREE.SpriteMaterial({map:new THREE.CanvasTexture(c),depthTest:false,transparent:true}));s.scale.set(8,2,1);s.renderOrder=10;return s}
@@ -2687,7 +2729,7 @@ function mpSend(){
 function ghostVisual(g,pr,dt){
   const k=g.mk,v=g.v,m=g.m;m.group.position.copy(v.pos);m.group.rotation.y=v.yaw;
   if(k==='person'){const a=Math.sin(v.wheelRot*.6)*.9*Math.min(1,Math.abs(v.vx)/3);m.legs[0].rotation.x=a;m.legs[1].rotation.x=-a;m.arms[0].rotation.x=-a;m.arms[1].rotation.x=a;if(g.dr!==pr.dr){styleModel(m,pr.dr);g.dr=pr.dr}}
-  else if(k==='jet'||k==='airliner'||k==='mq9'||k==='f16'){v.gp+=((v.gearDown?1:0)-v.gp)*Math.min(1,dt*3);m.gears.forEach(q=>{q.scale.y=Math.max(.001,v.gp);q.visible=v.gp>.06});m.body.rotation.set(v.air?-v.ap:0,0,v.air?-v.ar:0);m.ab.visible=v.air&&v.abOn}
+  else if(k==='jet'||k==='airliner'||k==='mq9'||k==='f16'||k==='f15'){v.gp+=((v.gearDown?1:0)-v.gp)*Math.min(1,dt*3);m.gears.forEach(q=>{q.scale.y=Math.max(.001,v.gp);q.visible=v.gp>.06});m.body.rotation.set(v.air?-v.ap:0,0,v.air?-v.ar:0);m.ab.visible=v.air&&v.abOn}
   else if(k==='heli'){m.body.rotation.set(-v.ap,0,-v.ar);v.rs+=(35-v.rs)*Math.min(1,dt*1.2);m.rotor.rotation.y+=v.rs*dt;m.trotor.rotation.x+=v.rs*dt*1.5;m.disc.visible=v.rs>18}
   else if(k==='drone'){m.body.rotation.set(-v.ap,0,-v.ar);v.rs+=(60-v.rs)*Math.min(1,dt*3);m.rotors.forEach((q,i)=>{q.rotation.y+=v.rs*dt*(i%2?1:-1)})}
   else if(k==='rocket'){m.body.rotation.set(-v.ap,0,-v.ar);m.fl.visible=v.abOn;m.fl.scale.set(1,1,.7+Math.random()*.6)}
@@ -2774,7 +2816,7 @@ function frame(now){
     else if(k==='drone'){m.body.rotation.set(-v.ap,0,-v.ar);v.rs=(v.rs||0)+(((v.air||v.to||sel==='drone')?60:0)-(v.rs||0))*Math.min(1,dt*3);m.rotors.forEach((q,i)=>{q.rotation.y+=v.rs*dt*(i%2?1:-1)})}
     else if(k==='heli'){m.body.rotation.set(-v.ap,0,-v.ar);v.rs=(v.rs||0)+(((v.air||v.to||sel==='heli')?35:0)-(v.rs||0))*Math.min(1,dt*1.2);
       m.rotor.rotation.y+=v.rs*dt;m.trotor.rotation.x+=v.rs*dt*1.5;m.disc.visible=v.rs>18}
-    else if(k==='jet'||k==='jet2'||k==='jet3'||k==='airliner'||k==='b2'||k==='b52'||k==='mq9'||k==='f16'){v.gp=(v.gp??1)+((v.gearDown?1:0)-(v.gp??1))*Math.min(1,dt*3);
+    else if(k==='jet'||k==='jet2'||k==='jet3'||k==='airliner'||k==='b2'||k==='b52'||k==='mq9'||k==='f16'||k==='f15'){v.gp=(v.gp??1)+((v.gearDown?1:0)-(v.gp??1))*Math.min(1,dt*3);
       m.gears.forEach(gr=>{gr.scale.y=Math.max(.001,v.gp);gr.visible=v.gp>.06});
       m.body.rotation.set(v.air?-v.ap:0,0,v.air?-v.ar:0);m.body.position.y=(m.h||1.4)*(!v.air&&v.belly?.6:1);m.ab.visible=v.air?v.abOn:v.thr>.9}
     else if(k==='bike'||k==='bicycle'){m.body.rotation.z=-clamp(Math.atan(v.vx*v.w/9.81),-.9,.9);m.rig.rotation.x=-v.pitch}
@@ -2794,7 +2836,7 @@ function frame(now){
   const gm=car.P.gmax,f=clamp(car.rpm/gm,0,1),red=car.rpm>=car.P.red*.98;
   $('arc').setAttribute('stroke-dasharray',`${377*f} 600`);$('arc').setAttribute('stroke',f>(car.P.red-gm*.06)/gm?'#ff2a4d':'#19e3ff');
   $('spd').textContent=Math.round(kmh);$('gear').textContent=car.type==='heli'?'🚁':car.type==='drone'?'🛸':car.type==='train'?'🚆':car.type==='rocket'?'🚀':car.type==='person'?'🚶':car.P.jet&&car.air?'✈':car.gear<0?'R':car.gear===0?'N':car.gear;
-  const js=$('jst');if(sel==='jet'||sel==='airliner'||sel==='b2'||sel==='b52'||sel==='mq9'||sel==='f16'){js.style.display='block';js.textContent=`ALT ${Math.round(car.pos.y)} m · TREM ${car.belly?'DANIFICADO':car.gearDown?'BAIXADO':'RECOLHIDO'}${car.to?' · AUTO-DECOLAGEM':''}`}else if(sel==='heli'||sel==='drone'){js.style.display='block';js.textContent=`ALT ${Math.round(car.pos.y)} m${car.to?' · AUTO-DECOLAGEM':''}${car.ld?' · POUSANDO':''}`}
+  const js=$('jst');if(sel==='jet'||sel==='airliner'||sel==='b2'||sel==='b52'||sel==='mq9'||sel==='f16'||sel==='f15'){js.style.display='block';js.textContent=`ALT ${Math.round(car.pos.y)} m · TREM ${car.belly?'DANIFICADO':car.gearDown?'BAIXADO':'RECOLHIDO'}${car.to?' · AUTO-DECOLAGEM':''}`}else if(sel==='heli'||sel==='drone'){js.style.display='block';js.textContent=`ALT ${Math.round(car.pos.y)} m${car.to?' · AUTO-DECOLAGEM':''}${car.ld?' · POUSANDO':''}`}
   else if(sel==='person'&&car.planet){const dr=car.pos.distanceTo(V[car.ship||'rocket'].v.pos);js.style.display='block';js.textContent=`EM ${car.planet.name.toUpperCase()} 👽 · foguete a ${Math.round(dr)} m${dr<22?' · ENTRAR (Q)':''}`}
   else if(sel==='person'){let nb='car',bd=1e9;for(const k of VEH){const v=V[k].v,d=Math.hypot(v.pos.x-car.pos.x,v.pos.z-car.pos.z);if(d<bd){bd=d;nb=k}}
     js.style.display='block';js.textContent=`A PÉ · ${NAMES[nb]} a ${Math.round(bd)} m${bd<9?' · ENTRAR (Q)':''}`}
